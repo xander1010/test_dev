@@ -16,7 +16,7 @@
 
 * 如下图
   
-![1.png](.\pic\1.png)
+![1.png](https://github.com/xander1010/test_dev/blob/master/pic/1.png)
 
 * 如果没有SSH Key，则需要先生成一下
 ```
