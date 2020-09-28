@@ -2,8 +2,8 @@
 ## 一、设置git的user name和email
 * 如果你是第一次使用，或者还没有配置过的话需要操作一下命令，自行替换相应字段。
 
->1. git config --global user.name "Luke.Deng"
->2. git config --global user.email  "xiangshuo1992@gmail.com"
+>1. git config --global user.name "xander"
+>2. git config --global user.email  "xander1010@163.com"
 
 * 说明：git config --list 查看当前Git环境所有配置，还可以配置一些命令别名之类的。
   
@@ -16,12 +16,12 @@
 
 * 如下图
   
-![标题](.\pic\1.png)
+![1.png](.\pic\1.png)
 
 * 如果没有SSH Key，则需要先生成一下
 ```
-ssh-keygen -t rsa -C "xiangshuo1992@gmail.com"
-有提示时直接回车就好，一个是让输入文件名，一个是密码
+ssh-keygen -t rsa -C "xander1010@163.com"
+执行后有提示,一个是让输入文件名,一个是密码,直接回车就好
 ```
 * 执行之后继续执行以下命令来获取SSH Key
 >1. cd ~/.ssh
@@ -41,7 +41,7 @@ ssh-keygen -t rsa -C "xiangshuo1992@gmail.com"
 ```
 ssh -T git@github.com
 //运行结果出现类似如下
-Hi xiangshuo1992! You've successfully authenticated, but GitHub does not provide shell access.
+Hi xiang! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
 # Git的使用
